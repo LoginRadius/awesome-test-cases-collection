@@ -9,6 +9,9 @@ The full-version releases include more features to be covered in the repository 
 ### Changelog:
 - All notable changes can be found [here](CHANGELOG.md)
 
+### Contribution:
+The `awesome-test-cases-collection` is open for the community to contribute. Read the contribution guidelines [here].(CONTRIBUTING.md)
+
 
 ## Know more about its features and benefits:
 
