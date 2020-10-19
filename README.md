@@ -16,7 +16,7 @@ The `awesome-test-cases-collection` is open for the community to contribute. Rea
 ## Know more about its features and benefits:
 
 ### 1. Test Cases
-With these identified test cases, you can quickly get the gist about test cases of authentication features on the basis of which you can start validation.
+With these identified test cases, you can quickly get the gist about test cases of different testing types on the basis of which you can start validation.
 
 ### 2. Easy to Understand
 With mentioned *type of test case*, it is convenient for a person to understand and implement them for feature validation.
