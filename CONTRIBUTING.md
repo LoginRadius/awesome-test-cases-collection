@@ -7,7 +7,7 @@ Here are some guidelines to follow while contributing to this project.
 
  - Ensure any install or build dependencies are removed before the end
    of the layer when doing a build. 
- - Update the `README.md` with details of changes to the interface, this includes new environment variables, useful parameters to use. 
+ - Update the `README.md` with details of changes.
  - Update the `CHANGELOG.md` following by the new version number and related changes.
 
 ## Our Standards
