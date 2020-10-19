@@ -15,8 +15,6 @@ Here are some guidelines to follow while contributing to this project.
 - Cases must be written in csv file only.
 - Csv file must be saved in `Cases-Collections` folder 
 - Follow the standards while adding new Test Cases
-- Ensure code formatting for code snippets
-- Follow coding standards like naming conventions while creating variables, functions etc...
 - Follow the Test Cases file naming conventions as it is
 
 ## Our Responsibilities
