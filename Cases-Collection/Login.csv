@@ -43,3 +43,4 @@ S.No.,Test Case,"Type of Test Case
 41,Verify that the refresh link of CAPTCHA is generating new CAPTCHA,Positive,
 42,Verify that the CAPTCHA is case sensitive,Positive,
 43,Verify whether the CAPTCHA has audio support to listen,Positive,
+44,Verify that User is redirected to Create an account page when clicking on Sign up / Create an account link
