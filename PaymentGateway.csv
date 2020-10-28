@@ -1,4 +1,4 @@
-S. No,Test Case,Type of Test Case,Remarks
+S. No,Test Case,Type of Test Case(positive/negative),Remarks
 1,During the payment process try to change the payment gateway language,Positive,
 2,"After successful payment, test all the necessary components, whether it is retrieved or not",Positive,
 3,Check what happens if payment gateway stops responding during payment,Negative,
