@@ -5,7 +5,7 @@ S.No.,Test Case,"Type of Test Case (Positive / Negative)",Remarks
 4,Verify that the columns that cannot be null have the ‘NOT NULL’ constraint.,Positive,
 5,Verify that the unique key and foreign key columns are indexed as per the requirement.,Positive,
 6,Verify that the tables are named according to the table naming convention.,Positive,
-7,Verify that the names of the database metadata such as tables, columns, indexes are as per the naming standards.,Positive,
+7,"Verify that the names of the database metadata such as tables, columns, indexes are as per the naming standards.",Positive,
 8,Verify that if correct data is getting saved in the database upon successful page submit for Database Testing,Positive,
 9,Verify that null value should not be allowed in Primary Key column,Positive,
 10,Verify that Primary Key column should contain unique values,Positive,
