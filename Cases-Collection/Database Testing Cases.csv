@@ -1,5 +1,4 @@
-S.No.,Test Case,"Type of Test Case
-(Positive / Negative)",Remarks
+S.No.,Test Case,"Type of Test Case (Positive / Negative)",Remarks
 1,Verify that the table and column data type definitions are as per the data model design specifications.,Positive,
 2,Verify that the length of database columns are as per the data model design specifications.,Positive,
 3,Verify that proper constraints and indexes are defined on the database tables as per the design specifications.,Positive,
