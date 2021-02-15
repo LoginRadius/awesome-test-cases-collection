@@ -78,4 +78,4 @@ S.No.,Test Case,Type of Test case (Positive/Negative),Remarks
 77,Verify that if appropriate error messages are given to the user when the network connectivity is low and the user is trying to initiate a voice / video call,Negative,
 78,"Verify that if the user can accept, decline and hear to voice / video call over headphones",Negative,
 79,Verify that if the blank screen is displayed in the caller/receiver frame when the video call is put in the background,Negative,
-80,Verify if there is any particular count of chats to which user can share a common message.,Positive,
+80,Verify if there is any particular count of chats to which user can share a common message at a time.,Positive,
