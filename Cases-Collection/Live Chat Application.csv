@@ -49,7 +49,7 @@ S.No.,Test Case,Type of Test case (Positive/Negative),Remarks
 48,Verify that “How much time is it taking to send a message from one User to another?”,Positive,
 49,Verify that “How much time is it taking to send a message in a group?”,Positive,
 50,Verify that “How much time is it taking to send a message from one User to another if internet is weak?”,Negative,
-51,Verify that “How long a chat can be saved?",Positive,
+51,Verify that “How long a chat can be saved?,Positive,
 52,Verify that if the user can open multiple channel windows.,Positive,
 53,Verify that the channel can connect with the available integration apps.,Positive,
 54,Verify that the screen-sharing works properly for users in chat.,Positive,
