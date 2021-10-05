@@ -1,0 +1,25 @@
+S. No., Test Case, Remarks
+1, Providing Operating System Access, NA
+2, Promotion for Maintenance, NA
+3, Issuing Trusted Realms, NA
+4, Creating On-Demand Authentication, NA
+5, Verify Authentication Manager, NA,
+6, Verify Help Desk Administration, NA,
+7, Verify Bulk Administration Utility, NA,
+8, Verify Administrator, NA,
+9, Verify Risk-Based Authentication, NA,
+10, Adding a Password Dictionary and Exporting a Passwords, NA
+11, Testing Web Tier Getting Started, NA,
+12, Testing VMware Virtual Appliance, NA,
+13, Testing Hyper-V Virtual Appliance, NA,
+14, Evaluating the Accessibility of a Website for Development tools, NA,
+15, Evaluating the Accessibility of a Website for Environment, NA,
+16, Checking for Service Packs and Patches, NA,
+17, Verification of Desk Administration, NA,
+18, Verification of SecurID RADIUS server, NA,
+19, Checking for High Availability Tokencodes, NA
+20, Injecting RADIUS features, NA,
+21, Managing the Cloud Connection, NA
+22, Adding a Security Domain, NA
+23, Waiting for user interface and prompts display, NA,
+24, Verifying previous versions and builds, NA,
