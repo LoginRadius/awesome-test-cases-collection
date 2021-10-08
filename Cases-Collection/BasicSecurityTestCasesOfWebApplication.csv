@@ -41,4 +41,4 @@ TC_08,Verify that site is prevented from xss,"- Login into website
 TC_09,Verify that password field should be masked on Signup Page,,
 TC_10,Verify that password field should be masked on Login Page,,
 TC_11,Verify that application login is protected from SQL injection,"- Enter 1' or '1' = '1 in UserName field
-- Enter 1' or '1' = '1 in Password field",User should not able to login and Poper error message should return
+- Enter 1' or '1' = '1 in Password field",User should not able to login and proper error message should return
