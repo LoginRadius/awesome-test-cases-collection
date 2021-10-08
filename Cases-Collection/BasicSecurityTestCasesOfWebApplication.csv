@@ -1,0 +1,44 @@
+S.No.,Test Case,Steps,Expected
+,,,
+,Session Management,,
+TC_01,Verify that click on browser back button user should not redirect to login page after logout,"- Login into Application
+- Click on Logout
+- Now click browser back button","It should not redirect to application profile page, it should remain on login page"
+TC_02,Verify if a user is already logged-in then should not logout when click on browser back button,"- Login into Application
+- Now click browser back button","It should not redirect to login page, it should remain on profile page"
+TC_03,Verify that login session should destroy when click on logout,"- Login into Application
+- Click on Logout
+- Now click browser back button","It should not redirect to application profile page, it should remain on login page"
+TC_04,Verify that unauthorize access is not allowed,"- Open browser 
+- Paste the Profile Page or Authenticated Pages link directly in the address bar","It should not redirect to application profile page, it should remain on login page"
+TC_05,Verify the session management on Login Page,"- Login into Application
+- Now paste the login/index page url directly in address bar","It should not redirect to login page, it should remain on profile page"
+TC_06,Verify that use should not able to access web pages in offline mode,"- Log-into the application and navigate some authenticated links
+- Logout from the application 
+- Select Work Offline option in your browser
+- Now open the history of your browser 
+- Click on the authenticated link navigated above.",Web pages should not open
+,,,
+,Cache and Cookie Management,,
+TC_07,"Verify if create manual cookie in another browser, user should allowed to login","- Log-into the application
+- Open Console (f12)
+- Open Application tab
+- Click on Cookies
+- Click on relative site link
+- Copy all the cookies and their values
+- Open another browser
+- Open Console and Create Manual Cookie
+- Now Open Login Page of the application",User should not login
+,,,
+,XSS (Cross Site Scripting),,
+TC_08,Verify that site is prevented from xss,"- Login into website
+- Open signup page
+- Find a free entry text box
+- Input script like <script>alert('hello')</script>
+- Submit the form","Form should not submit, it should throw error for invalid input"
+,,,
+,Password Protection,,
+TC_09,Verify that password field should be masked on Signup Page,,
+TC_10,Verify that password field should be masked on Login Page,,
+TC_11,Verify that application login is protected from SQL injection,"- Enter 1' or '1' = '1 in UserName field
+- Enter 1' or '1' = '1 in Password field",User should not able to login and proper error message should return
