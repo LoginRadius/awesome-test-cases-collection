@@ -1,31 +1,42 @@
 S. No,Test Case,Type of Test Case(Positive/Negative),Remarks
-1.,Verify if the DNS records are configured properly.,Positive
-2.,Verify if DNS records do not point to 404 URLs.,Negative
-3.,Verify if the website has a valid SSL certificate.,Positive
-4.,Verify if there is no open port in the network.,Positive
-5.,Verify if the firewall is configured properly to restrict unauthorised access,Positive
-6.,Verify if the web application is able to identify spam attacks on contact forms used on the website.,Positive
-7.,Verify that all usernames and passwords are encrypted and transferred over secured connection like https.,Positive
-8.,Verify information stored in website cookies. It should not be in a readable format.,Negative
-9.,Verify application for SQL Injection.,Negative
-10.,Verify application for Cross Side Scripting.,Negative
-11.,Verify application for HTML script injection attacks.,Negative
-12.,Verify that directory browsing is disabled on the server.,Positive
-13.,Verify that rate limiting is enabled in login forms.,Positive
-14.,Verify all HTTP methods. PUT and Delete methods should not be enabled on a web server.,Positive
-15.,"Verify if special characters, HTML tags, and scripts are handled properly as an input value.",Positive
-16.,Verify if the error pages are displaying any information that can be helpful for a hacker to enter into the system.,Negative
-17.,Verify that sensitive data is not passed in URLs while communicating with different internal modules of the web application.,Positive
-18.,Verify WiFi network security.,Positive
-19.,"Try to exploit all servers, desktop systems, printers, and network devices.",Negative
-20.,Verify if incoming network traffic is scanned to find Trojan attacks.,Positive
-21.,Verify if system or network is secured from DoS (denial-of-service) attacks.,Positive
-22.,Verify that all applications and database versions are up to date.,Positive
-23.,Verify that all dependencies are up to date.,Positive
-24.,Verify memory leak and buffer overflow.,Negative
-25.,Verify against spoofing attacks.,Negative
-26.,Verify if any critical data like the password is stored in secret files on the system.,Negative
-27.,Verify if the application is returning more data than it is required.,Negative
-28.,Verify previously found vulnerabilities to check if the fix is working.,Positive
-29.,Verify the use of registry entries. Sensitive information should not be kept in the registry.,Negative
-30.,Verify against COM & ActiveX attacks.,Negative
+1,Verify if the DNS records are configured properly.,Positive,
+2,Verify if DNS records do not point to 404 URLs.,Negative,
+3,Verify if the website has a valid SSL certificate.,Positive,
+4,Verify if there is no open port in the network.,Positive,
+5,Verify if the firewall is configured properly to restrict unauthorised access,Positive,
+6,Verify if the web application is able to identify spam attacks on contact forms used on the website.,Positive,
+7,Verify that all usernames and passwords are encrypted and transferred over secured connection like https.,Positive,
+8,Verify information stored in website cookies. It should not be in a readable format.,Negative,
+9,Verify application for SQL Injection.,Negative,
+10,Verify application for Cross Side Scripting.,Negative,
+11,Verify application for HTML script injection attacks.,Negative,
+12,Verify that directory browsing is disabled on the server.,Positive,
+13,Verify that rate limiting is enabled in login forms.,Positive,
+14,Verify all HTTP methods. PUT and Delete methods should not be enabled on a web server.,Positive,
+15,"Verify if special characters, HTML tags, and scripts are handled properly as an input value.",Positive,
+16,Verify if the error pages are displaying any information that can be helpful for a hacker to enter into the system.,Negative,
+17,Verify that sensitive data is not passed in URLs while communicating with different internal modules of the web application.,Positive,
+18,Verify WiFi network security.,Positive,
+19,"Try to exploit all servers, desktop systems, printers, and network devices.",Negative,
+20,Verify if incoming network traffic is scanned to find Trojan attacks.,Positive,
+21,Verify if system or network is secured from DoS (denial-of-service) attacks.,Positive,
+22,Verify that all applications and database versions are up to date.,Positive,
+23,Verify that all dependencies are up to date.,Positive,
+24,Verify memory leak and buffer overflow.,Negative,
+25,Verify against spoofing attacks.,Negative,
+26,Verify if any critical data like the password is stored in secret files on the system.,Negative,
+27,Verify if the application is returning more data than it is required.,Negative,
+28,Verify previously found vulnerabilities to check if the fix is working.,Positive,
+29,Verify the use of registry entries. Sensitive information should not be kept in the registry.,Negative,
+30,Verify against COM & ActiveX attacks.,Negative,
+31,Verify that application is preventive against canonicalization attacks,Negative,
+32,Verify that there should not be any hardcoded username or password in the system,Negative,
+33,Verify that network traffic is monitored by proxy appliances,Negative,
+34,Verify that all files must be scanned before uploading them to the server,Negative,
+35,Verify all input fields with long input string with and without spaces,Negative,
+36,Verify URL manipulation to check if a web application is not showing any unwanted information,Negative,
+37,Verify that binary file does not consist of any sensitive information,Negative,
+38,Verify that discretionary ACL is working correctly,Negative,
+39,"Verify code disassembling like performing algorithm reversing, analysis of security updates and patching binaries",Negative,
+40,Verify that application is preventive when attempt to modify execution flow for instance serial key validation,Negative,
+41,Verify that application is safe from Brute Force Attacks – a trial and error method to find sensitive information like passwords,Negative,
