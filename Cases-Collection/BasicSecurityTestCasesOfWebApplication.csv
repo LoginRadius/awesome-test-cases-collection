@@ -18,9 +18,11 @@ TC_06,Verify that use should not able to access web pages in offline mode,"- Log
 - Select Work Offline option in your browser
 - Now open the history of your browser 
 - Click on the authenticated link navigated above.",Web pages should not open
+TC_07,Verify that system should restrict you to download the file without sign in on the system,"- Hit the URL of the web page from where file can be downloaded (do not login the application)
+- Try to download",System should restrict you to download the file without sign in on the system
 ,,,
 ,Cache and Cookie Management,,
-TC_07,"Verify if create manual cookie in another browser, user should allowed to login","- Log-into the application
+TC_08,"Verify if create manual cookie in another browser, user should allowed to login","- Log-into the application
 - Open Console (f12)
 - Open Application tab
 - Click on Cookies
@@ -29,16 +31,46 @@ TC_07,"Verify if create manual cookie in another browser, user should allowed to
 - Open another browser
 - Open Console and Create Manual Cookie
 - Now Open Login Page of the application",User should not login
+TC_09,Verify that relevant information should be written to the log files and that information should be traceable,"-To review the source log files, select Metrics > Raw Access Logs.
+-The Raw Access Logs allow you to see who has visited your website without displaying graphs, charts, or other graphics.","Logged visits include:
+
+The visitor’s IP address.
+The date and time of the visit.
+The type of HTTP request sent by the visitor’s browser (GET or POST).
+A relative path to a file/image/query and HTTP version.
+The status of the request: for example, 404 – not found, 200 – success.
+The identity and credentials of the user-agent."
 ,,,
 ,XSS (Cross Site Scripting),,
-TC_08,Verify that site is prevented from xss,"- Login into website
+TC_10,Verify that site is prevented from xss,"- Login into website
 - Open signup page
 - Find a free entry text box
 - Input script like <script>alert('hello')</script>
 - Submit the form","Form should not submit, it should throw error for invalid input"
 ,,,
 ,Password Protection,,
-TC_09,Verify that password field should be masked on Signup Page,,
-TC_10,Verify that password field should be masked on Login Page,,
-TC_11,Verify that application login is protected from SQL injection,"- Enter 1' or '1' = '1 in UserName field
+TC_11,Verify that password field should be masked on Signup Page,,
+TC_12,Verify that password field should be masked on Login Page,,
+TC_13,Verify that application login is protected from SQL injection,"- Enter 1' or '1' = '1 in UserName field
 - Enter 1' or '1' = '1 in Password field",User should not able to login and proper error message should return
+TC_14,"Verify the valid and invalid passwords, password rules say cannot be less than 6 characters, user id and password cannot be the same etc.","- Enter email for eg: test@gamil.com
+- Enter password same as email which is test@gamil.com",Basic password policy should be applied
+TC_15,"Verify by adding or modifying important information (passwords, ID numbers, credit card number, etc.). Check if it gets reflected immediately or caching the old values","- Login into website
+- change password/card details
+- Check on page refresh
+- check after relogin",Updated information should reflect immediately
+,,,
+,SSL and Page Source Security check,,
+TC_16,Verify that the encryption is done correctly in SSL and check the integrity of the information,,
+TC_17,"Verify is there an alternative way to access secure pages for browsers under version 3.0, since SSL is not compatible with those browsers?",,
+TC_18,"Verify Is Right Click, View, Source disabled? Source code should not be visible to user","- Go to website
+- Right Click via mouse
+- Check Source code",Source code should not be visible to user
+,,,
+,Some other scenarios,,
+TC_19,Verify Is bookmarking disabled on secure pages? Bookmarking Should be disabled on secure pages,,
+TC_20,Verify user is not able to directly access bookmarked web page without login to the system,,
+TC_21,Verify that user is prevented from doing direct searches by editing content in the URL,"- Open the Website URL
+- Try editing the URL",URL should not open for search when edited
+TC_22,Verify that Error Message does not contain malicious info so that hacker will use this information to hack web site,"- Open the Website URL
+- CHeck error messages on forms/submissions",Error message should not pass any malicious information to hackers 
