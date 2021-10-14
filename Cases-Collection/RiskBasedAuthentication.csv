@@ -1,2 +1,2 @@
 S.No., Testcases, Type of test case(positive/negative), Remarks
-1.,User/Admin should receive notification on their emails when risk Identified. Presettings set Risk factor (IP1) and Email Notification to Admin/User. Create User from IP1, positive,
+1.,User/Admin should receive notification on their emails when risk Identified. Presettings set Risk factor (IP1) and Email Notification to Admin/User. Create User from IP1. Login User from IP2. Hence user login from different IP address. Risk Should detect and send notifications to User / Admin, positive,
