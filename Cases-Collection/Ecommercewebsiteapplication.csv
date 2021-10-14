@@ -1,0 +1,21 @@
+S. No.,Test Case,"Type of Test Case (Positive / Negative)",Remarks
+1,Verify that on the product page, the user can select the desired attribute of the product e.g. size, color, etc.,Positive
+2,Verify that the user can successfully buy more than one product that was added to his/her cart,Positive
+3,Verify that logo of the company is clearly visible in every page,NA 
+4,Verify that  filtering works correctly on category pages,Positive
+5,Verify that there is no dead hyperlink, plugin dependency, font sizing, etc.,NA 
+6,Verify that all the text – product, category name, price, and product description are visible.Positive
+7,Verify that the correct count of total products is listed on the category pages.Positive
+8,Verify for an error message if Email, password, or any required field is left blank,Positive
+9,Verify that all the required fields are present on the registration page,NA 
+10,Verify that the required/mandatory fields are marked with * against the field,NA 
+11,Verify that the registration page has both submit and cancel/reset buttons at the end,NA 
+12,Verify that not filling the mandatory fields and clicking the submit button will lead to the validation error,Negative 
+13,Verify that not filling the optional fields and clicking the submit button will send data to the server without any validation error,Positive 
+14,Verify that all items on the next page are different from the previous page, i.e., no duplicates,NA 
+15,Verify that the added product is present on the wishlist page, Positive
+16,Verify that user can add products in the wish list, Positive.
+17,Verify that option to check the availability of the product is present,Positive 
+18,Verify that users can rate, review the product,Positive 
+19,Verify that user can add products to the cart,Positive 
+20,Verify that user price increase accordingly when a product is added multiple times,Positive.
