@@ -20,3 +20,8 @@ S. No,Test Case,Type of Test Case(positive/negative),Remarks
 19,Check if each listed payment option opens the respective payment option according to specification,Positive,
 20,Verify whether the payment gateway defaults to the desired debit/credit card option,Positive,
 21,Verify the default option for debit card shows card selection drop down menu,Positive,
+22,Check that end user gets a  notification email with proper reason upon payment failure,Negative
+23, Check if double payment is happening for any case,Positive
+24,Check whether the payment information is available after session timeout,Positive
+25,Check what happens when the payment gateway stops responding  to the request. Stop the process and verify if payment is debited or not,Negative
+26,Check the position of different payment options doesn't change while switching the languages,Positive
