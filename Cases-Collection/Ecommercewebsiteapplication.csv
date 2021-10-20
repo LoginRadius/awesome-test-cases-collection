@@ -1,21 +1,55 @@
-S. No.,Test Case,"Type of Test Case (Positive / Negative)",Remarks
-1,Verify that on the product page, the user can select the desired attribute of the product e.g. size, color, etc.,Positive
-2,Verify that the user can successfully buy more than one product that was added to his/her cart,Positive
-3,Verify that logo of the company is clearly visible in every page,NA 
-4,Verify that  filtering works correctly on category pages,Positive
-5,Verify that there is no dead hyperlink, plugin dependency, font sizing, etc.,NA 
-6,Verify that all the text – product, category name, price, and product description are visible.Positive
-7,Verify that the correct count of total products is listed on the category pages.Positive
-8,Verify for an error message if Email, password, or any required field is left blank,Positive
-9,Verify that all the required fields are present on the registration page,NA 
-10,Verify that the required/mandatory fields are marked with * against the field,NA 
-11,Verify that the registration page has both submit and cancel/reset buttons at the end,NA 
-12,Verify that not filling the mandatory fields and clicking the submit button will lead to the validation error,Negative 
-13,Verify that not filling the optional fields and clicking the submit button will send data to the server without any validation error,Positive 
-14,Verify that all items on the next page are different from the previous page, i.e., no duplicates,NA 
-15,Verify that the added product is present on the wishlist page, Positive
-16,Verify that user can add products in the wish list, Positive.
-17,Verify that option to check the availability of the product is present,Positive 
-18,Verify that users can rate, review the product,Positive 
-19,Verify that user can add products to the cart,Positive 
-20,Verify that user price increase accordingly when a product is added multiple times,Positive.
+S. No.,Test Case,Type of Test Case (Positive / Negative),Remarks
+1,"Verify that on the product page, the user can select the desired attribute of the product e.g. size, color, etc.,",Positive,
+2,Verify that the user can successfully buy more than one product that was added to his/her cart,Positive,
+3,Verify that logo of the company is clearly visible in every page,Positive,
+4,Verify that  filtering works correctly on category pages,Positive,
+5,"Verify that there is no dead hyperlink, plugin dependency, font sizing, etc.,",Positive,
+6,"Verify that all the text – product, category name, price, and product description are visible",Positive,
+7,Verify that the correct count of total products is listed on the category pages,Positive,
+8,"Verify for an error message if Email, password, or any required field is left blank",Positive,
+9,Verify that all the required fields are present on the registration page,Positive,
+10,Verify that the required/mandatory fields are marked with * against the field,Positive,
+11,Verify that the registration page has both submit and cancel/reset buttons at the end,Positive,
+12,Verify that not filling the mandatory fields and clicking the submit button will lead to the validation error,Negative,
+13,Verify that not filling the optional fields and clicking the submit button will send data to the server without any validation error,Positive,
+14,"Verify that all items on the next page are different from the previous page, i.e., no duplicates",Positive,
+15,Verify that the added product is present on the wishlist page,Positive,
+16,Verify that user can add products in the wish list,Positive.,
+17,Verify that option to check the availability of the product is present,Positive,
+18,"Verify that users can rate, review the product",Positive,
+19,Verify that user can add products to the cart,Positive,
+20,Verify that user price increase accordingly when a product is added multiple times,Positive.,
+21,Verify that the user is able to navigate through all the products across different categories.,Positive,
+22,Verify that category pages have a relevant product listed specific to the category,Positive,
+23,Verify that on searching all the product satisfying the search criteria are visible on the search result page.,Positive,
+24,Verify error message when no serach result found,Negative,
+25,Verify the more relevant product for the search term is displayed on the top for a particular search term.,Positive,
+26,Verify that count of products is correctly displayed on the search result page for a particular search term.,Positive,
+27,Verify that filtering functionality correctly filters products based on the filter applied.,Positive,
+28,Verify that filtering works correctly on the search result page.,Positive,
+29,Verify that the correct count of total products is displayed after a filter is applied.,Positive,
+30,Verify that all the sort options work correctly – correctly sort the products based on the sort option chosen.,Positive,
+31,Verify that sorting works correctly on the category pages.,Positive,
+32,Verify that sorting works correctly on the search result page.,Positive,
+33,"Verify that sorting works correctly on the pages containing the filtered result, after applying filters.",Positive,
+34,Verify that product count remains intact irrespective of sorting option applied.,Positive,
+35,Verify that the user can buy products added to the cart after signing in to the application (or as per the functionality of the website).,Positive,
+36,Verify that the user cannot add more than the available inventory of the product.,Positive,
+37,Verify that the delivery can be declined for the places where shipping is not available.,Positive,
+38,Verify that the Cash on Delivery option of payment is working fine.,Positive,
+39,Verify that the different pre-paid methods of payments are working fine.,Positive,
+40,Verify that product return functionality works fine.,Positive,
+41,Verify that product refund functionality works fine.,Positive,
+42,Verify website in different browsers,Positive,
+43,Verify page load of a website,Positive,
+44,"Verify that every page features different items. The items don’t repeat on page to avoid duplicate items
+",Positive,
+45,Verify the breadcrumbs on the website's page,Positive,
+46,Verify that user can remove products from cart,Positive,
+47,Verify that user can remove products from wishlist,Positive,
+48,Verify price on checkout page,Positive,
+49,Verify user is able to add address ,Positive,
+50,Verify user is able to update address,Positive,
+51,Verify user can add/remove card details,Positive,
+52,Verify discount functionality if available,Positive,
+53,Verify the order status after order is placed,Positive,
