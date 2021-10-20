@@ -1,0 +1,18 @@
+S. No.,Test Case,Type of Test Case (Positive / Negative)
+1. , Verify if the API key is correct and legal, Positive 
+2. , Verify if the API call is correct, Positive 
+3. , Verify if no null values are passed in the API Call. Positive
+4. , Verify if all the required parameters passed are of the correct data type, Positive 
+5. , Verify if the POST request is empty, Negative
+6. , Verify if Updates in the API are handled properly, Positive
+7. , Verify if the response is handled correctly, Positive
+8. , Verify if the response from the API is parsed correctly, Positive
+9. , Verify if the API method called is correct, Positive
+10. , Verify if the API method called has the correct datatypes passed to the required parameters, Positive
+11. , Either optional parameters are not passed at all or if they are passed, then their respective datatypes are correct, Positive
+12. , Verify the response of the HTTP satus codes are handled, Positive
+13. , Verify the handling of API Error Codes, Positive
+14. , Verify if the response payload is invalid, Negative
+15. , Verify if wrong error codes are present, Negative
+16. , Verify the handling of exceptions during API calls, Positive
+17. , Verify if invalid operations have been done on API results, Negative
