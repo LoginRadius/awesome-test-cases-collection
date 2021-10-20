@@ -1,0 +1,56 @@
+S.No.,Test Categories,Test Conditions
+1,Components Validation,"Device Hardware
+Embedded Software
+Cloud infrastructure
+Network Connectivity
+Third-party software
+Sensor Testing
+Command Testing
+Data format testing
+Robustness Testing
+Safety testing"
+2,Function Validation,"
+Basic device Testing
+Testing between IOT devices
+Error Handling
+Valid Calculation
+"
+3,Conditioning Validation,"
+Manual Conditioning
+Automated Conditioning
+Conditioning profiles
+"
+4,Performance Validation,"
+Data transmit Frequency
+Multiple request handing
+Synchronization
+Interrupt testing
+Device performance
+Consistency validation
+"
+5,Security and Data Validation,"Security and Data Validation
+Validate data packets
+Verify data loses or corrupt packets
+Data encryption/decryption
+Data values
+Users Roles and Responsibility & its Usage Pattern
+"
+6,Gateway Validation,"
+
+Cloud interface testing
+Device to cloud protocol testing
+Latency testing
+"
+7,Analytics Validation,"
+Sensor data analytics checking
+IOT system operational analytics
+System filter analytics
+Rules verification
+"
+8,Communication Validation,"
+Interoperability
+M2M or Device to Device
+Broadcast testing
+Interrupt Testing
+Protocol
+"
