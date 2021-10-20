@@ -28,4 +28,4 @@ S. No,Test Case,Type of Test Case(positive/negative),Remarks
 27,Check the process of payment with blocked card data,Negative,
 28,Check the expiration date of the card if payment method is selected through card,Negative,
 29,Check all the fraud prevention options and encrypted options,Positive,
-30,Verify that refund is same as the transaction amount. In no case, the refund/main amount should exceed the transaction amount.
+30,Verify that refund is same as the transaction amount. In no case, the refund/main amount should exceed the transaction amount,Negative,
