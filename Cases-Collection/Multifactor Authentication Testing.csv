@@ -1,0 +1,19 @@
+S. No., Test Case, Remarks
+1, Providing Code-based systems, NA
+2, Logon to two different browsers, NA,
+3, 2FA screen in one browser, NA,
+4, Log in fully and change the user’s password in other, NA,
+5, Checking for WebAuthn tokens, NA
+6, triggering 2FA responses, NA
+7, Check if SMS is used as a two-factor solution, NA
+8, Checking if WebAuthn security keys is present, NA,
+9, Verify Risk-Based Authentication, NA,
+10, Check for randomly-generated cookie, NA
+11, Obtain number of remember this computer tokens, NA,
+12, Testing if secrets are secured, NA,
+13, Testing id the password reset mechanism is secure, NA,
+14, Testing the common validity range, NA,
+15, Evaluating lockout mechanasm, NA,
+16, Checking for Service Packs and Patches, NA,
+17, Targeting WebAuthn Security Key Issues, NA,
+18, Ended the testing process, NA
