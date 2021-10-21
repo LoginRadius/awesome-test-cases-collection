@@ -34,4 +34,3 @@ S.No.,Test Case,"Type of Test Case
 32,Verify that the registration page is not vulnerable to SQL injection,Negative,
 33,Verify whether the registration form is revealing any security information by viewing page source,Negative,
 34,"Verify if the font, text color, color coding and sequence of the Registration page is as per the standard.",Positive,
-35, Verify Page title on Successful Registration, Positive,
