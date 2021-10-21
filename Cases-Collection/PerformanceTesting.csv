@@ -10,3 +10,4 @@ S. No.,Test Case,"Type of Test Case
 8,Verify the database query execution time (Volume testing),NA,
 9,Verify perfomance of the application/system under the peak load conditions (Peak Load Testing),NA,
 10,Verify performance of the application/system with a heavy load extended over a significant period of time (Endurance Testing),NA,
+11,Verify Performance of the application/system with sudden incremental / decrementl load (SPike Testing), NA,
