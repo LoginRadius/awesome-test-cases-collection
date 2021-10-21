@@ -45,6 +45,4 @@ S.No.,Test Case,"Type of Test Case
 43,Verify whether the CAPTCHA has audio support to listen,Positive,
 45,Verify Page Title after Successful login, Positive,
 46,Verify User should be locked after multiple invalid login attempts when lockout is set, Negative,
-47,Verify locked user should not able to login even after passing valid credentials without locked parameter(captcha, securty Question etc..), Negative,
-48,Verify locked user should login after passing valid credentials with correct captcha/security question, Positive,
-49, Verify User should blocked when reached maximum invalid attempts, if user is already locked and trying to pass wrong captcha/ security question answers, Negative,
+
