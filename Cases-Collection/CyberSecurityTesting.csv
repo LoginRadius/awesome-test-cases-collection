@@ -1,0 +1,10 @@
+S. No.,Test Case,Type of Test Case (Positive / Negative),Remarks
+1,Identify the category of the software or product under test,NA,
+2,"Determine whether the application is web, mobile, desktop or cloud",NA,
+3,"Prepare a list of threat vectors (injections, authentication, network attacks) that the software or product provides protection against",NA,
+4,"Check if the product or software requires compliance with standards (FDI, FISMA, NIST)",NA,
+5,"Construct a list of environments (browsers, mobile devices, operating systems) that are supported by the product or software",NA,
+6,List the third party tools with which the application can collaborate,NA,
+7,Research the latest security and intelligence trends to validate if the product or software can secure its end users from any new threats,NA,
+8,Make sure your QA strategy considers all points mentioned above and covers all positive and negative scenarios,NA,
+9,Confirm that your test plan is sound and effective for the security product or software under test,NA,
