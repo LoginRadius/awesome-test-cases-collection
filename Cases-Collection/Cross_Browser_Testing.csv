@@ -1,0 +1,16 @@
+No.,Test Case,Expected Result
+1,Verify if the website loads on the browser,positive
+2,Verify if the web page takes a long time to load on the browser,negative
+3,How well does the website respond to a slow internet connection,positive
+4,Check if the webpage atleast provides its basic version instead of going blank if it is run on an older or non-supporting browser ,positive
+5,Check if the content and elements of the page are visible on all devices,positive
+6,Check if the website is responsive,positive
+7,Check if all the elementes of the web page respond when clicked,positive
+8,Does the JavaScript library increase the website's total file size and slow down the site,negative
+9,Are the tables and forms present in the website responsive with all the data falling in its required position,positive
+10,Does CSS minification cause errors or affect rendering,negative
+11,Check if the overall layout of the website is rendered properly across most devices,positive
+12,Does the use of HTML5 and CSS3 result in visibilty or alignment issues in UI elements,negative
+13,Check if the login and logout actions are successful and do not cause any issues,positive
+14,Check all input fields and their validations,positive
+15,Check for integration issues in payment gateways and shipping/creating orders etc,negative
