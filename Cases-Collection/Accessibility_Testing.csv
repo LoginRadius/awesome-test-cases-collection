@@ -1,0 +1,21 @@
+S.No,Test case,Type of Test Case(positive/negative)
+1,Text size can be increased easily,positive
+2,Voice speed can be changed by user,positive
+3,Tabs are ordered logically to ensure smooth navigation,positive
+4,Shortcut keys are provided for menus,positive
+5,Application supports all operating systems,positive
+6,Response time of each screen or page is clearly mentioned so that End Users know how long to wait,positive
+7,All labels are written correctly in the application,positive
+8,Color of the application is flexible for all users,positive
+9,"Images or icons are used appropriately, so it’s easily understood by the end users",positive
+10,An application has audio alerts,positive
+11,User is able to adjust audio or video controls,positive
+12,User can override default fonts for printing and text displays,positive
+13,"User can adjust or disable flashing, rotating or moving displays",positive
+14,Check to ensure that color-coding is used as the only means of conveying information or indicating an action,negative
+15,Highlighting is viewable with inverted colors,positive
+16,Audio and video related content are properly heard by the disability people,positive
+17,Easy to understand and operate the application using the documentation,positive
+18,Sound file size is short and can be loaded in low bandwidth,positive
+19,An application provides keyboard equivalents for all mouse operations and windows,positive
+20,Instructions are provided as a part of user documentation or manual,positive
