@@ -1,0 +1,12 @@
+S. No.,Test Case,"Type of Test Case
+(Positive / Negative)",Remarks
+1,Verify the page load time is within the acceptable range,NA,
+2,"Verify the response time for any action under light, normal, moderate, and heavy load conditions (in incremental order)",NA,
+3,Verify the page load (throughput) on slow connections,NA,
+4,Verify which configuration sizing provides the best performance level with heavy load.,NA,
+5,"Verify the  system health (CPU and memory usage) under light, normal, moderate, and heavy load conditions (in incremental order)",NA,
+6,Verify perfomance of the application/system with the heavy load which is beyond required user limit (to identify application and infrastructure bottlenecks) (Stress testing),NA,
+7,Verify the performance of database stored procedures and triggers (Volume testing),NA,
+8,Verify the database query execution time (Volume testing),NA,
+9,Verify perfomance of the application/system under the peak load conditions (Peak Load Testing),NA,
+10,Verify performance of the application/system with a heavy load extended over a significant period of time (Endurance Testing),NA,
